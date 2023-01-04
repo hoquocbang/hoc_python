@@ -1,0 +1,6 @@
+sn = int(input("Nhập một số nguyên: "))
+st = float(input("Nhập một số thực: "))
+chuoi = str(input("Nhập một chuỗi ký tự: "))
+print(sn)
+print(st)
+print(chuoi)

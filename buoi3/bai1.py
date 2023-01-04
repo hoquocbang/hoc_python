@@ -1,0 +1,10 @@
+number1 = float(input("Nhập số 1: "))
+number2 = float(input("Nhập số 2: "))
+tong = number1 + number2
+hieu = number1 - number2
+tich = number1 * number2
+thuong = number1 / number2
+chia_lay_nguyen = number1 // number2
+chia_lay_du = number1 % number2
+luy_thua = number1 ** number2
+print(tong, hieu, tich, thuong, chia_lay_nguyen, chia_lay_du, luy_thua, sep="|")
