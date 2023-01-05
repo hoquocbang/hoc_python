@@ -14,11 +14,11 @@ print("Phim đã xem: ", movies_list)
 print(f"Bộ phim đầu tiên trong danh sách phim là: {movies_list[0]}")
 print(f"Bộ phim cuối cùng trong danh sách phim là: {movies_list[-1]}")
 amount = len(movies_list)
-print(f"Bộ phim ở giữa trong danh sách phim là: {movies_list[-1]}")
+print(f"Bộ phim ở giữa trong danh sách phim là: {movies_list[amount // 2]}")
 
 #5. Tính tổng bộ phim có trong movies
-
-
+amount = len(movies_list)
+print("Tổng bộ phim đang có trong danh sách là: ", amount)
 
 #6. Xóa bộ phim đầu và cuối trong movies
 first_value_in_movies_list = movies_list
