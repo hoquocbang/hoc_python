@@ -21,7 +21,7 @@ amount = len(movies_list)
 print("Tổng bộ phim đang có trong danh sách là: ", amount)
 
 #6. Xóa bộ phim đầu và cuối trong movies
-first_value_in_movies_list = movies_list
+first_value_in_movies_list = movies_list.remove()
 last_value_in_movies_list = movies_list.pop()
 print("Tên bộ phim cuối cùng trong danh sách là: ", last_value_in_movies_list)
 print("Danh sách sau khi xóa bộ phim cuối cùng là: ", movies_list)
