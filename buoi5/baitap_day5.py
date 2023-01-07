@@ -19,7 +19,7 @@ friends_4 = friends[1:]
 print("Những bạn từ vị trí 1 đến cuối trong danh sách friends là: ", friends_4)
 
 #e. Copy danh sách ban đầu thành một danh sách mới
-friends_copy = friends
+friends_copy = friends.copy()
 print("Danh sách friends mới là: ", friends_copy)
 
 #f. Lấy ra những người bạn từ vị trí 2 đến sát cuối
